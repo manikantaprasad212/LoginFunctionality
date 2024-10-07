@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  padding: 35px;
+  border-radius: 20px;
+  border: 0.5px solid rgb(245, 241, 241);
+/* box-shadow: 10px 10px 1px rgb(110, 110, 177);  */
+margin: 5px;
+  
+}
+
+.signup{
+  color: white;
+}
+
+body{
+  background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80);
+background-size: cover;
+
+
+}
+
+form div{
+  margin: 15px;
+}
+
+form label{
+  display:inline-block;
+  width: 100px;
+  color: aliceblue;
+  
+}
+.profilePicPreview{
+  width:120px;
+  height: 120px;
+  border-radius: 100px;
+  border: 1px solid black;
+  background-color: rgb(218, 218, 27);
+}
+/* body{
+  background-color: rgb(60, 31, 253);
+} */
+ nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  padding: 20px;
+  
+ }
+ a{
+  text-decoration: none;
+ }
